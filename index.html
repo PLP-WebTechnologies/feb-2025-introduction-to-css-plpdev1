@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Webpage</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking external CSS file -->
+</head>
+<body>
+
+  <header id="main-header">
+    <h1>Welcome to Our Styled Page</h1>
+  </header>
+
+  <!-- Section for ordered list -->
+  <section>
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+    </ol>
+  </section>
+
+  <!-- Section for image -->
+  <section>
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/123123/pexels-photo-123123.jpeg" alt="Nature Image" id="nature-image">
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact Information</h2>
+    <table id="contact-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>1234 Nairobi Street</td>
+          <td>0712-345678</td>
+          <td>johndoe@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>5678 Mombasa Avenue</td>
+          <td>0701-234567</td>
+          <td>janesmith@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <button type="submit" class="form-button">Register</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact us at: <a href="mailto:support@example.com">support@example.com</a></p>
+  </footer>
+
+</body>
+</html>
